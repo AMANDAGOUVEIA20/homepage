@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2? família=Inter&family=Kanit:wght@300&display=swap');
+
+*{
+    border:0px;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.gradiente{
+    font-size: 100%;
+    background: linear-gradient(45deg, #ffffff, #ee1e1e, #ffee00,#ff7300, #ffffff);
+    background-size: 300% 300%;
+    animation:colors 10s ease infinite;
+}
+@keyframes colors{
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+}
+.img{
+    padding-left: 150px;
+}
+.title-principal{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300px;
+    font-size: 45px;
+    text-align: center; 
+    color: #ffffff;
+
+}
+.social{
+    display: flex;
+    gap: 70px;
+}
+.main{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #000000;
+}
+.main-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #000000;
+}
+.title-main{
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.title-main-linha{
+    border-top: 0.4px solid #000000;
+    margin: 1px;
+}
+.botao{
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #fffafa;
+    background: #000000;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #fffafa;
+}
+.footer{
+    padding: 32px;
+    border-top: 0.4px solid #000000;
+    background-color: #000000;
+}
+.footer-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+.text-paragrafo{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
